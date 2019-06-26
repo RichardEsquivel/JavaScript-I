@@ -75,7 +75,12 @@ console.log('Hello, my name is ' + diben.name);
 console.log(`Hello, my name is ${diben.name}`);
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-console.log(daine);
+
+daine.multiplyNums = function(num1, num2) {
+	console.log(num1 * num2);
+};
+
+daine.multiplyNums(3, 5);
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -85,8 +90,6 @@ console.log(daine);
 // 2. Nest a child object in the parent object with name and age as well.  The name will be George and the age will be 50.
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
-
-const parent = {};
 
 // Log the parent object's name
 
