@@ -5,6 +5,12 @@
 // };
 // myFunction();
 
+let myFunction = () => {
+	console.log('Function was invoked!');
+};
+
+myFunction();
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
@@ -19,7 +25,6 @@
 //   return param1 - param2;
 // };
 // subtract(1,2);
-
 
 // Stretch
 
